@@ -11,7 +11,7 @@ COPY index.js ./
 # Cài đặt các phụ thuộc của ứng dụng
 RUN npm install
 
-# Mở cổng mà ứng dụng sử dụng (nếu có)
+# Mở cổng mà ứng dụng sử dụng 
 EXPOSE 3000
 
 # Khởi chạy ứng dụng
