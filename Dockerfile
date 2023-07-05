@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 # Copy tất cả các tệp cần thiết vào thư mục làm việc
 COPY package*.json ./
-#COPY index.js ./
+COPY src/sever.js ./
 
 # Cài đặt các phụ thuộc của ứng dụng
 RUN npm install
